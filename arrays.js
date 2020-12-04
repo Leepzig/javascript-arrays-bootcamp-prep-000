@@ -47,5 +47,5 @@ function removeElementFromEndOfArray(array) {
 } 
 
 console.log(chocolateBars)
-console.log(chocolateBars.splice(1, 2))
+console.log(chocolateBars.splice(1, 2, 'word1', 'word2'))
 console.log(chocolateBars)
